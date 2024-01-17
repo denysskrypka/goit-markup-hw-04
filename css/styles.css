@@ -158,11 +158,12 @@ ul {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/InscriptionBackground.jpg);
+    url(../images/InscriptionBackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .inscription-title {
@@ -314,6 +315,7 @@ ul {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-top: 8px;
 }
 
 .team-icon-list-item {
